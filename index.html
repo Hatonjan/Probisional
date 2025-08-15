@@ -1,0 +1,77 @@
+ <!--This code is part of the data-viz template file with minor 
+modification to add tow more visualizations  -->
+<!DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta charset="utf-8">
+
+      <title>Data visualization App</title>
+
+      <!-- P5.js libraries -->
+      <script src="lib/p5.dom.min.js"></script>
+      <script src="lib/p5.min.js"></script>
+    
+      <!-- CSS files -->
+      <link rel="stylesheet" href="styles/leaflet.css">
+      <link rel="stylesheet" href="styles/styles.css">
+
+      <!-- Leaflet libraries -->
+      <script src="lib/leaflet/leaflet-src.esm.js.map"></script>
+      <script src="lib/leaflet/leaflet-src.js.map"></script>
+      <script src="lib/leaflet/leaflet-src.esm.js"></script>
+      <script src="lib/leaflet/leaflet-src.js"></script>
+      <script src="lib/leaflet/leaflet.js.map"></script>
+      <script src="lib/leaflet/leaflet.js"></script>
+
+      <!-- Main sketch file -->
+      <script src="sketch.js"></script>
+
+      <!-- Main visualization files -->
+      <script src="visualizations/scatterPlot/car-price-by-gasoline-consumption.js"></script>
+      <script src="visualizations/pieChart/alcohol-consumption-by-race.js"></script>
+      <script src="visualizations/interactiveLineChart/climate-change.js"></script>
+      <script src="visualizations/multiLineChart/nutrients-1974-2016.js"></script>
+      <script src="visualizations/geospatial/usa-population-density.js"></script>
+      <script src="visualizations/barChart/europe-diversity-gender.js"></script>
+      <script src="visualizations/waffleChart/eating-behavior.js"></script>
+      <script src="data/alcoholConsumption/articleInformation.js"></script>
+      <script src="visualizations/BubbleChart/bubble-chart.js"></script>
+      <script src="visualizations/BubbleChart/foodData.js"></script>
+      <script src="visualizations/waffleChart/waffle.js"></script>
+      <script src="visualizations/waffleChart/box.js"></script>      
+
+      <!-- Add extra scripts below -->
+      <script src="data/alcoholConsumptionInformationData.js"></script>
+      <script src="visualizations/pieChart/donut-chart.js"></script>
+      <script src="data/geospatialData/stateData.js"></script>
+      <script src="helpers/helper-functions.js"></script>
+      <script src="helpers/homeScreen.js"></script>
+      <script src="helpers/gallery.js"></script>
+
+      <!-- Add the header to the application -->
+      <div class="header">
+        <h1> 
+          <a href="index.html">
+            <img 
+              src="lib/leaflet/images/mjs.jpg" 
+              alt="My personal logo" 
+              class="header-img"/>
+          </a>
+          Data Visualization App
+        </h1>
+      </div>
+
+    </head>
+    
+    <body> 
+      <!-- Display the visualizations in the application window -->
+      <div id="app" class="container">
+        <ul id="visuals-menu"></ul>
+         <div id="map"></div>
+      </div>
+    </body>
+  </html>  
+ 
