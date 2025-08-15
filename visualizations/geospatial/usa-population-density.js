@@ -38,11 +38,11 @@ function Map() {
         '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>';
 
         // API for the tiles to display the data in a world map   
-        // let tiles = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
+        let tiles = 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 
         /* Replace the tiles wit a image mimicking the ocean to comply wit the 
         project external resources rule */
-        let tiles = './lib/leaflet/images/sea0.png'; 
+        // let tiles = './lib/leaflet/images/sea0.png'; 
         let maxZoom = 19;
 
         // Initiate the map tiles and set up the zoom level

@@ -17,7 +17,7 @@ function EatingBehavior() {
     this.preload = function() {
         // Loads the data 
         data = loadTable(
-            "data/foodConsumptionData/eatingBehavior.csv", 
+            "./data/foodConsumptionData/eatingBehavior.csv", 
             "csv", 
             "header");
     };

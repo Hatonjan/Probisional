@@ -18,7 +18,7 @@ function FoodData() {
     this.preload = function() {
         var self = this;
         data = loadTable(
-            "data/foodConsumptionData/foodData74-17.csv", 
+            "./data/foodConsumptionData/foodData74-17.csv", 
             "csv", 
             "header",
             
