@@ -155,7 +155,7 @@ function EuropeDiversityGender() {
   /* The code below is my original work and not 
       part of code from the data-viz template */ 
   this.drawTitle = function() {
-    const title = 'European Union Diversity: Gender';
+    const title = 'European Union Labor Diversity: Gender';
     
     push();
     fill(245)
